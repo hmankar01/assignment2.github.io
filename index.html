@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+   
+</head>
+<body>
+  <h1>Assignment 2</h1>
+  <style>body {background-color: black;text-align: center;color: bisque;}</style>
+    <div class="reversestring">
+        <h1>1] reversing input string</h1>
+        <input type="text" id="input" placeholder="type here"><br>
+        <button onclick="reverse()">Reverse</button>
+        <p id="reversed"></p><br><br><br>
+    </div>
+
+
+    <div class="palindrome">
+      <h1>2] if palindrome or not</h1>
+      <input type="text" id="inputstr" placeholder="Enter here to Check if palindrome"><br>
+      <button onclick="ifPalindrome()">clickme</button>
+      <p id="palindromeresult"></p><br><br><br>
+  </div>
+
+
+  <div class="tipcalculator">
+    <h1>3]tip + subtotal</h1>
+    <label for="billtotal">Subtotal: </label>
+    <input type="number" id="billtotal" placeholder="only bill amount"><br><br>
+    <label for="tipPercentage">tip you would like to give: </label>
+    <input type="number" id="tipPercentage" placeholder="Enter tip percentage"><br><br>
+    <button onclick="subtotal()">overall bill</button>
+    <p id="totalAmount"></p>
+</div>
+  <script src="index.js"></script>
+</body>
+</html>
